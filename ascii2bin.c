@@ -22,5 +22,5 @@ number = (number << 1) + digit;
 retval = read(0, &ascii_value, 1);
 }
 printf("%u\n", number);
-return 1;
+return 0;
 }
