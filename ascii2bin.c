@@ -15,7 +15,7 @@ switch (ascii_value) {
 case ('0'): //if ascii_value is 0 or 1 and number is not too big, break out of switch
 case ('1'):
 if (!(number & 0x80000000)) break;
-default: return 0; //return 0 upon failure
+default: return 1; //return 1 upon failure
 }
 digit = ascii_value - offset;
 number = (number << 1) + digit;
