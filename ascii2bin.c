@@ -1,3 +1,10 @@
+/***************************/
+/* ascii2bin.c             */
+/* Marsie Cordero          */
+/* Date:  03/04/21         */
+/***************************/
+
+
 #include <stdio.h>
 #include <unistd.h>
 
